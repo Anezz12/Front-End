@@ -1,0 +1,35 @@
+<!-- Perulangan foreach biasanya digunakan untuk mencetak item di dalam array.
+
+Perulangan ini termasuk dalam perulangan counted loop, karena jumlah perulangannya akan dituentukan oleh panjang dari array.
+
+Ada dua cara menggunakan perulangan foreach di Javascript:
+
+Menggunakan for dengan operator in;
+Mengguunakan method forEach(). -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perulangan Foreach</title>
+  </head>
+  <body>
+    <script>
+      //Berikut ini bentuk perulangan “foreach” tanpa menggunakan operator in:
+      //   var language = ["JavaScript", "HTML", "CSS", "TypeScript"];
+
+      //   for (i = 0; i < language.length; i++) {
+      //     document.write(i + "." + language[i] + "<br/>");
+      //   }
+
+      //   Perulangan ini dapat dibuat lebih sederhana lagi dengan menggunakan operator in seperti ini:
+
+      var language = ["JavaScript", "HTML", "CSS", "TypeScript"];
+
+      for (i in language) {
+        document.write(i + "." + language[i] + "<br/>");
+      }
+    </script>
+  </body>
+</html>

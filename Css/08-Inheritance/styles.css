@@ -1,0 +1,12 @@
+body{
+    font-family: Arial;
+    color: rgb(15, 70, 222);
+    padding: 10px;
+}
+
+.intro {
+    border: 1px solid #595959;
+    background-color: #d6ed04;
+    padding: inherit;
+
+}

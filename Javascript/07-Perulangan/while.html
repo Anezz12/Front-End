@@ -1,0 +1,27 @@
+<!-- Perulangan while merupakan perulangan yang termasuk dalam perulangan uncounted loop.
+
+Perulangan while juga dapat menjadi perulangan yang counted loop dengan memberikan counter di dalamnya.
+
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pwrulangan while</title>
+  </head>
+  <body>
+    <script>
+      var ulangi = confirm("Apakah anda mau megulangi?");
+      var counter = 0;
+
+      while (ulangi) {
+        counter++;
+        ulangi = confirm("Apakah anda nau mengulangi)");
+      }
+
+      document.write(
+        "Perulangan sudah di lakukan sebnyak " + counter + "kalai"
+      );
+    </script>
+  </body>
+</html>

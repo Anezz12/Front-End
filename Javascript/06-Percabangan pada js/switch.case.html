@@ -1,0 +1,39 @@
+<!-- Percabangan switch/case adalah bentuk lain dari percabangan if/else/if. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Switch/case</title>
+  </head>
+  <body>
+    <script>
+      var jawaban = prompt(
+        "Kamu beruntung!! Silahkan pilih hadiah mu dengan memasukan angka 1-5"
+      );
+
+      switch (jawaban) {
+        case "1":
+          hadiah = "Tisu";
+          break;
+        case "2":
+          hadiah = "Kopi";
+          break;
+        case "3":
+          hadiah = "sticker";
+        case "4":
+          hadiah = "minyak goreng";
+          break;
+        case "5":
+          hadiah = "Uang Rp. 50.000";
+          break;
+        default:
+          document.write("<p>Opsi anda salah pilih</p>");
+      }
+
+      if (hadiah === "") {
+        document.write("<p>Kamu gagal mendapatkan hadiah</p>");
+      } else {
+        document.write("<h2>Selamat kamu mendapatkan" + hadiah + "</h2>");
+      }
+    </script>
+  </body>
+</html>

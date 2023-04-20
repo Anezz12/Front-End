@@ -1,0 +1,21 @@
+<!-- Kita juga dapat membuat blok percabangan di dalam percabangan. Ini disebut percabangan bersarng atau nested if. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Percabangan Nasted</title>
+  </head>
+  <script>
+    var username = prompt("Username: ");
+    var password = prompt("Password: ");
+
+    if (username == "petanikode") {
+      if (password == "kopi") {
+        document.write("<h2>Selamat datang di website kami!</h2>");
+      } else {
+        document.write("<p>Paswword salah, coba lagi!</p>");
+      }
+    } else {
+      document.write("<p>anda tidak terdaftar</p>");
+    }
+  </script>
+</html>

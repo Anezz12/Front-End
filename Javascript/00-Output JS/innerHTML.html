@@ -1,0 +1,24 @@
+<!-- 1. innerHTML adalah sebuah atribut di
+dalam (objek) elemen HTML yang berisi
+string HTML  -->
+<!-- 2. Dengan innerHTML, kita dapat
+menampilkan output ke elemen yang
+lebih spesifik-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar Javascript</title>
+  </head>
+  <body>
+    <h1>Belajar Javascript untuk pemula</h1>
+    <div id="hasil-output"></div>
+
+    <script>
+      // membuat objek elemen
+      var hasil = document.getElementById("hasil-output");
+
+      // menampilkan output ke elemen hasil
+      hasil.innerHTML = "<p>Aku suka Belajar Javascript</p>";
+    </script>
+  </body>
+</html>

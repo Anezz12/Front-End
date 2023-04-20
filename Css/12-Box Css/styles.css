@@ -1,0 +1,26 @@
+div.box1{
+    height: 100px;
+    width: 300px;
+    background-color: deepskyblue;
+}
+
+div.box1 p {
+    height: 75%;
+    width: 75%;
+    background-color: rgb(213, 18, 18);
+}
+
+.box2 {
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+}
+.box2 h2 {
+    width: 25%;
+    background-color: rgb(136, 136, 25);
+}
+
+.box2 p {
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+}

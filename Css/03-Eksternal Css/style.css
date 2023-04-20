@@ -1,0 +1,14 @@
+h1 {
+    color: aqua;
+    font-family: 'Trebuchet MS';
+}
+p {
+    font-family: Arial;
+    color: rgb(237, 100, 100);
+}
+b {
+    color: rgb(22, 237, 29);
+}
+i {
+    background-color: rgb(7, 202, 236);
+}

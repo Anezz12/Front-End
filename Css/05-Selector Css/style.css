@@ -1,0 +1,61 @@
+/* Universal Selector */
+
+* {
+    font-family: Arial;
+}
+
+/* Type Selector */
+
+h1 {
+    color: rgb(233, 229, 11);
+}
+
+h2 {
+    color: rgb(13, 13, 209);
+}
+
+/* Class Selector */
+li.Buka-1{
+    color: darkgoldenrod;
+}
+
+li.Buka-2{
+    color: darkgray;
+}
+
+li.Buka-3{
+    color: darkkhaki;
+}
+
+/* id Selector */
+
+#Buka-4 {
+    color: aqua;
+}
+
+/* child Selector */
+
+p>b {
+    color: antiquewhite;
+}
+
+li>b {
+    color: rgb(255, 4, 217);
+}
+
+/* decendant Selector */
+
+p b{
+    color: rgb(242, 15, 15);
+}
+
+/* adjacent sibiling selection */
+p+h2 {
+    color: deeppink;
+}
+
+/* general sibling selector */
+
+h2~ {
+    font-family: 'Times New Roman';
+}

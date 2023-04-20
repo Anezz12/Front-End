@@ -1,0 +1,35 @@
+* {
+    font-family: Arial;
+}
+/* Aturan terakhor */
+i {
+    color: aquamarine;
+}
+
+i{
+    color: blue;  /*yang di ambil yang ini*/
+}
+
+/* Spesifik */
+
+b {
+    color: blue;  /*level 1*/
+}
+
+p b{
+    color: green !important;  /*level 3*/
+}
+
+p b{
+    color: yellow ; /*level 2*/
+}
+
+/* Studi Kasus */
+
+p {
+    font-size: medium;
+}
+
+p#pendahuluan {
+    font-size: large;
+}
